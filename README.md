@@ -5,28 +5,14 @@
 
 ## 效果
 
-```
-🧭 任务：迁移用户表到新结构
-📋 调用前检查表
-- ☐ 只改动与任务相关的文件/目录
-- ☐ 写、删、推送、安装等有副作用的操作先确认影响面
-- ☐ 改动后按项目规则验证（不擅自编译、不擅自推送）
-```
-
-```
-🧭 第 4 次工具调用 · ✅ 2 · ❌ 1 · ▶ 1
-- ✅ #1 `view_file` — src/app.ts
-- ❌ #2 `run_command` — npm test（exit status 1）
-- ▶ #3 `run_command` — npm run build
-📋 检查表：☐ 只改动与任务相关的文件/目录 · ☐ 副作用操作先确认影响面 · ☐ 改动后按规则验证
-```
+![agy-saymore 运行效果](assets/demo.png)
 
 ## 安装
 
 需要 Node.js 18 及以上（hook 用 `node hooks/checklist.js` 执行）。
 
 ```bash
-git clone git@atomgit.com:ji-yanshi/agy-saymore.git
+git clone https://atomgit.com/ji-yanshi/agy-saymore.git
 agy plugin install ./agy-saymore
 ```
 
@@ -94,6 +80,8 @@ agy-saymore/
 │   └── config.json
 ├── rules/
 │   └── AGENTS.md
+├── assets/
+│   └── demo.png
 ├── README.md
 └── LICENSE
 ```
