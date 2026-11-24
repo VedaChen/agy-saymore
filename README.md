@@ -11,24 +11,13 @@
 
 需要 Node.js 18 及以上（hook 用 `node hooks/checklist.js` 执行）。
 
-HTTPS（推荐，公开仓库无需登录）：
+一条命令安装：
 
 ```bash
-git clone https://github.com/VedaChen/agy-saymore.git
-agy plugin install ./agy-saymore
+agy plugin install https://github.com/VedaChen/agy-saymore/archive/refs/heads/main.zip
 ```
-
-SSH：
-
-```bash
-git clone git@github.com:VedaChen/agy-saymore.git
-agy plugin install ./agy-saymore
-```
-
-`agy plugin install` 接受本地目录、zip 文件或 zip 归档 URL，不能直接传 git 仓库地址。
 
 安装后 `agy plugin list` 应显示 `progress-checklist (enabled)`，新会话立即生效。
-也可以把整个目录复制到 `~/.gemini/config/plugins/progress-checklist/`。
 
 ## 工作方式
 
