@@ -1,7 +1,6 @@
 # agy-saymore
 
-为 [Antigravity CLI（`agy`）](https://antigravity.google) 增加「调用前检查表」和「逐级进度更新」：
-每次模型调用前显示任务检查表与最近几次工具调用的进度，让长任务不再是一串静默的命令。
+让 [Antigravity CLI（`agy`）](https://antigravity.google) 执行任务的时候告知用户自己在干嘛，而不是默默干活不汇报。
 
 ## 效果
 
