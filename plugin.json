@@ -1,0 +1,12 @@
+{
+  "name": "progress-checklist",
+  "displayName": "进度检查表",
+  "description": "在工具调用前展示检查表，并在工具调用之间给出简明的逐级进度更新。",
+  "version": "1.0.0",
+  "author": "momo",
+  "suggestedPrompts": [
+    "在开始前列出这次任务的检查表",
+    "只显示当前进度，不要展开细节",
+    "按项目自定义清单更新检查表"
+  ]
+}
