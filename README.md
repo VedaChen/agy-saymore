@@ -14,14 +14,14 @@
 HTTPS（推荐，公开仓库无需登录）：
 
 ```bash
-git clone https://atomgit.com/ji-yanshi/agy-saymore.git
+git clone https://github.com/VedaChen/agy-saymore.git
 agy plugin install ./agy-saymore
 ```
 
 SSH：
 
 ```bash
-git clone git@atomgit.com:ji-yanshi/agy-saymore.git
+git clone git@github.com:VedaChen/agy-saymore.git
 agy plugin install ./agy-saymore
 ```
 
