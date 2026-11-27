@@ -13,7 +13,7 @@
 一条命令安装：
 
 ```bash
-agy plugin install https://github.com/VedaChen/agy-saymore/archive/refs/heads/main.zip
+agy plugin install https://github.com/VedaChen/agy-saymore
 ```
 
 安装后 `agy plugin list` 应显示 `progress-checklist (enabled)`，新会话立即生效。
